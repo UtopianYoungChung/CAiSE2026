@@ -9,7 +9,7 @@ Affiliation: Faculty of Information and Department of Computer Science, Universi
 
 This repository contains supplementary materials for the CAiSE 2026 paper on identity-sensitive requirements in human-AI collaboration.
 
-At present, the repository includes one illustrative case package under `examples/CleverLoan/`, with model artifacts provided as PDF files.
+The repository includes two illustrative case packages under `examples/`, with model artifacts provided as PDF files.
 
 ## Repository Structure
 
@@ -19,12 +19,14 @@ CAiSE2026/
 |- LICENSE
 |- README.md
 `- examples/
-   `- CleverLoan/
-      |- CleverLoan Indentity Sensitive Model Examples.pdf
-      |- CleverLoan LC-1.pdf
-      |- CleverLoan LC-2_ SR 'AS-IS'.pdf
-      |- CleverLoan LC-3 SD 'To-Be'.pdf
-      `- CleverLoan LC-4 SR 'To-Be'.pdf
+   |- CleverLoan/
+   |  |- CleverLoan Indentity Sensitive Model Examples.pdf
+   |  |- CleverLoan LC-1.pdf
+   |  |- CleverLoan LC-2_ SR 'AS-IS'.pdf
+   |  |- CleverLoan LC-3 SD 'To-Be'.pdf
+   |  `- CleverLoan LC-4 SR 'To-Be'.pdf
+   `- NeuroYou/
+      `- NeuroYou Identity Sensitive Model Examples.pdf
 ```
 
 ## CleverLoan Case Materials
@@ -38,6 +40,14 @@ The `examples/CleverLoan/` folder contains the following artifacts:
 - `CleverLoan LC-4 SR 'To-Be'.pdf`
 
 These files provide the model examples used to illustrate the identity-sensitive requirements analysis approach in the paper.
+
+## NeuroYou Case Materials
+
+The `examples/NeuroYou/` folder contains the following artifact:
+
+- `NeuroYou Identity Sensitive Model Examples.pdf`
+
+This file provides identity-sensitive model examples and documentation illustrating how NeuroYou models handle identity-sensitive scenarios.
 
 ## References
 
