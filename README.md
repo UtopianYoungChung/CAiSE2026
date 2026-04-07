@@ -26,7 +26,11 @@ CAiSE2026/
    |  |- CleverLoan LC-3 SD 'To-Be'.pdf
    |  `- CleverLoan LC-4 SR 'To-Be'.pdf
    |- NeuroYou/
-   |  `- NeuroYou Identity Sensitive Model Examples.pdf
+   |  |- NeuroYou Identity Sensitive Model Examples.pdf
+   |  |- NY-1 Functional SR Model.pdf
+   |  |- NY-2 SR 'AS-IS'.pdf
+   |  |- NY-3 SD 'To-Be'.pdf
+   |  `- NY-4 SR 'To-Be'.pdf
    `- CustomerSupport/
       |- CustomerSupport Identity Sensitive Model Examples.pdf
       `- CS-1 As-Is SD.pdf
@@ -48,9 +52,13 @@ These files illustrate the identity-sensitive requirements analysis approach usi
 
 The `examples/NeuroYou/` folder contains:
 
-- `NeuroYou Identity Sensitive Model Examples.pdf`
+- `NeuroYou Identity Sensitive Model Examples.pdf` — compiled narrative and discussion for this case (functional SR, identity-sensitive As-Is SR, To-Be SD with alternatives, To-Be SR with Alternative 2)
+- `NY-1 Functional SR Model.pdf` — functional as-is Strategic Rationale (no person-based identities)
+- `NY-2 SR 'AS-IS'.pdf` — identity-sensitive as-is Strategic Rationale
+- `NY-3 SD 'To-Be'.pdf` — to-be Strategic Dependency (Alternative 1 and Alternative 2)
+- `NY-4 SR 'To-Be'.pdf` — to-be Strategic Rationale with Alternative 2 (hybrid practice)
 
-This file illustrates identity-sensitive models for van den Broek et al.'s hiring-system setting.
+These files illustrate identity-sensitive models for van den Broek et al.'s hiring-system setting.
 
 ## CustomerSupport case materials
 
