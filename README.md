@@ -29,8 +29,7 @@ CAiSE2026/
    |  `- NeuroYou Identity Sensitive Model Examples.pdf
    `- CustomerSupport/
       |- CustomerSupport Identity Sensitive Model Examples.pdf
-      |- CS-1 As-Is SD.pdf
-      `- main.pdf
+      `- CS-1 As-Is SD.pdf
 ```
 
 ## CleverLoan case materials
@@ -59,7 +58,6 @@ The `examples/CustomerSupport/` folder contains:
 
 - `CustomerSupport Identity Sensitive Model Examples.pdf` — compiled model examples (Strategic Dependency and Strategic Rationale materials referenced in the paper’s supplementary footnote)
 - `CS-1 As-Is SD.pdf` — As-Is Strategic Dependency model
-- `main.pdf` — supplementary narrative PDF for this case
 
 These materials relate to Brynjolfsson et al.’s generative-AI-at-work customer-support setting.
 
