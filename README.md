@@ -9,9 +9,9 @@ Affiliation: Faculty of Information and Department of Computer Science, Universi
 
 This repository contains supplementary materials for the CAiSE 2026 paper on identity-sensitive requirements in human-AI collaboration.
 
-The repository includes two illustrative case packages under `examples/`, with model artifacts provided as PDF files.
+The Santander case is presented in full in the paper. This repository provides **three additional illustrative case packages** under `examples/`, with model artifacts provided as PDF files.
 
-## Repository Structure
+## Repository structure
 
 ```text
 CAiSE2026/
@@ -25,13 +25,17 @@ CAiSE2026/
    |  |- CleverLoan LC-2_ SR 'AS-IS'.pdf
    |  |- CleverLoan LC-3 SD 'To-Be'.pdf
    |  `- CleverLoan LC-4 SR 'To-Be'.pdf
-   `- NeuroYou/
-      `- NeuroYou Identity Sensitive Model Examples.pdf
+   |- NeuroYou/
+   |  `- NeuroYou Identity Sensitive Model Examples.pdf
+   `- CustomerSupport/
+      |- CustomerSupport Identity Sensitive Model Examples.pdf
+      |- CS-1 As-Is SD.pdf
+      `- main.pdf
 ```
 
-## CleverLoan Case Materials
+## CleverLoan case materials
 
-The `examples/CleverLoan/` folder contains the following artifacts:
+The `examples/CleverLoan/` folder contains:
 
 - `CleverLoan Indentity Sensitive Model Examples.pdf`
 - `CleverLoan LC-1.pdf`
@@ -39,19 +43,31 @@ The `examples/CleverLoan/` folder contains the following artifacts:
 - `CleverLoan LC-3 SD 'To-Be'.pdf`
 - `CleverLoan LC-4 SR 'To-Be'.pdf`
 
-These files provide the model examples used to illustrate the identity-sensitive requirements analysis approach in the paper.
+These files illustrate the identity-sensitive requirements analysis approach using Strich et al.'s loan-consulting setting.
 
-## NeuroYou Case Materials
+## NeuroYou case materials
 
-The `examples/NeuroYou/` folder contains the following artifact:
+The `examples/NeuroYou/` folder contains:
 
 - `NeuroYou Identity Sensitive Model Examples.pdf`
 
-This file provides identity-sensitive model examples and documentation illustrating how NeuroYou models handle identity-sensitive scenarios.
+This file illustrates identity-sensitive models for van den Broek et al.'s hiring-system setting.
+
+## CustomerSupport case materials
+
+The `examples/CustomerSupport/` folder contains:
+
+- `CustomerSupport Identity Sensitive Model Examples.pdf` — compiled model examples (Strategic Dependency and Strategic Rationale materials referenced in the paper’s supplementary footnote)
+- `CS-1 As-Is SD.pdf` — As-Is Strategic Dependency model
+- `main.pdf` — supplementary narrative PDF for this case
+
+These materials relate to Brynjolfsson et al.’s generative-AI-at-work customer-support setting.
 
 ## References
 
 - Strich, F., Mayer, A.-S., Fiedler, M.: What Do I Do in a World of Artificial Intelligence? Investigating the Impact of Substitutive Decision-Making AI Systems on Employees' Professional Role Identity. Journal of the Association for Information Systems 22(2), 304-324 (2021)
+- van den Broek, E., Sergeeva, A., Huysman, M.: When the Machine Meets the Expert: An Ethnography of Developing AI for Hiring. MIS Quarterly 45(3), 1557-1580 (2021)
+- Brynjolfsson, E., Li, D., Raymond, L.R.: Generative AI at Work. National Bureau of Economic Research Working Paper 31161, Cambridge, MA (2023). https://doi.org/10.3386/w31161
 - Simon, C., Revilla, E., Saenz, M.J.: Integrating AI in Organizations for Value Creation through Human-AI Teaming: A Dynamic-Capabilities Approach. Journal of Business Research 182, 114783 (2024)
 
 ## Citation
